@@ -14,3 +14,68 @@
     line-height: 1.44;
     text-align: center;
   }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .container {
+    max-width: 1200px;
+    padding: 0 1.4rem;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .btn {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 3.5rem;
+    text-align: center;
+    display: inline-block;
+    padding: .6rem 1.4rem;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    transition: all .5s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: rgb(235, 12, 11);
+  }
+  
+  #about-page {
+    height: 100vh;
+    background-color: #3d3c3c;
+  }
+  
+  #navbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0rem 2.8rem;
+    display: flex;
+    justify-content: flex-end;
+    position: static;
+    top: 0;
+    width: 100vw;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  #navbar ul a {
+    display: inline-block;
+    padding: 1.3rem 2.2rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 4500;
+  }
+  
+  #navbar ul a:hover {
+    background-color: rgb(243, 16, 54);
+  }
