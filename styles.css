@@ -139,3 +139,58 @@
     margin: auto;
     margin-bottom: 3rem;
   }
+
+  #projects .projects .box {
+    background-color: #eee;
+    border: 5px solid #eee;
+    border-radius: 3px;
+  }
+  
+  #projects .projects .box a {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  #projects .projects .box a p {
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+  }
+  
+  
+  .code {
+    color: #eee;
+    transition: .5s all ease;
+    font-size: 1.6rem;
+  }
+  
+  #projects .projects .box:hover .code {
+    color: var(--primary-color);
+  }
+  
+  /* CONTACT SECTION */
+  #contact {
+    height: 80vh;
+    background-color: #444;
+    color: #fff;
+  }
+  
+  #contact .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  #contact .container h1 {
+    font-size: 3.4rem;
+    font-weight: bolder;
+    padding-bottom: .1rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
