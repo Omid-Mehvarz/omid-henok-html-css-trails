@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #85b8e7;
+    --secondary-color:#314963;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.44;
+    text-align: center;
+  }
